@@ -14,8 +14,8 @@ body {
     transform-origin: 60%; */
 }
 
-.stars {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png);
+.astra {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) #030018;
 }
 
 img {
@@ -27,14 +27,15 @@ main {
     flex-wrap: wrap;
     justify-items: center;
     align-items: center;
-    perspective: 70;
+    perspective: 70vw;
+
 }
 
 .container {
     text-align: center;
     font-size: xx-large;
     transform-style: preserve-3d;
-    transform: rotateX(65deg);
+    transform: rotateX(55deg);
 }
 
 .desc {
